@@ -1,18 +1,29 @@
-# CS2640-P1
+# CS2640 Program 1: Getting Familiar with Assembly
+### **Group members:** Sarah Huynh, Ashley Mapes, Sayumi Amarasinghe, Samuel Ji
+### **Date:** 11/01/2024
 
-#task 1: user input and output
-#get 2 ints from the user (prompt 1 and prompt 2) 
-#two user values should be held in register s$s0 and $s1
-#output user inputs in the Run "I/O" section in Mars environmetn back to user 
+## Program Overview
+**Goal:** To familiarize yourself with different MIPS instructions, syscall services, the MARS environment, and overall practice with Assembly programming
 
-#task 2: arithmetic operation practice
-#add two values (use instruction "add")
-#subtract two values (use instruction "sub")
-#multiply two values (use instruction "mul")
-#divide two values (use instruction "div")
-#Output the arithmetic results in the "Run I/O" section in MARS environment back to the user
+**Task 1: User input and output**
+*Sayumi A @SayumiAmarasinghe*
++ Gets 2 ints from user 
++ Move them to registers
++ Print them back to the user
 
-#task 3: conditions
-#If the two user inputs from Task 1 are equal to each other, output "User inputs are the same"
-#If the two user inputs from Task 1 are not equal to each other, output "User inputs are different"
- 
+**Task 2: Arithmetic operation and practice**
+*Sarah H @SarahAHuynh*
++ Add two values
++ Subtract two values
++ Output results 
+
+*Samuel J @SamuelJi528*
++ Multiply two values
++ Divide two values
++ Output results 
+
+**Task 3: Conditions** 
+*Ashley M @ashleymapes*
++ Checks if user inputs are same
++ Checks if user inputs are different
++ Output results
