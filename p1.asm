@@ -73,36 +73,72 @@ main:
      la $a0, newline
      syscall
       
+     # add two integers 
+     add $s2, $s0, $s1
+     
+     # print out prompt5
+     li $v0, 4
+     la $a0, prompt5
+     syscall
+     
+     # print out the result of the addition 
+     li $v0, 1
+     move $a0, $s2
+     syscall
+     
+     # print new line
+     li $v0, 4
+     la $a0, newline
+     syscall
+     
+     # subtract two integers 
+     sub $s2, $s0, $s1
+     
+     # print out prompt6
+     li $v0, 4
+     la $a0, prompt6
+     syscall
+     
+     # print out the result of subtraction 
+     li $v0, 1
+     move $a0, $s2
+     syscall
+     
+     # print new line
+     li $v0, 4
+     la $a0, newline
+     syscall
+     
      #mutiply two integers
-     mul $s3, $s0,$s1 
+     mul $s2, $s0, $s1 
      
      # print out prompt7
      li $v0, 4
      la $a0, prompt7
      syscall
      
-     #print out the result of the multiplication, result stored in s3 
+     #print out the result of the multiplication
      li $v0, 1 
-     move $a0, $s3 
+     move $a0, $s2 
      syscall 
-     
-     #division 
-     div $s0, $s1 
-     mflo $s4 
      
      #print newline 
      li $v0, 4
      la $a0, newline
      syscall
      
+     #division 
+     div $s0, $s1 
+     mflo $s2 
+     
      # print out prompt8 
      li $v0, 4
      la $a0, prompt8
      syscall
     
-     #print out the result of the multiplication , result stored in s3 
+     #print out the result of the divison
      li $v0, 1 
-     move $a0, $s4
+     move $a0, $s2
      syscall 
     
      #exit syscall
