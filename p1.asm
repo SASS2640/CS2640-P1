@@ -2,6 +2,7 @@
 #Group members: Sarah Huynh, Ashley Mapes, Sayumi Amarasinghe, Samuel Ji
 #11/01/2024
 #Program 1: Getting Familiar with Assembly
+#Github Repo Link: https://github.com/SASS2640/CS2640-P1
 # 1) gets 2 ints from user 
 # 2) move them to registers
 # 3) print them back to the user
